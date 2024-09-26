@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    width: 100%;
+    background-image: url(./Mentahan/UCL\ Bg.jpg);
+    background-size: cover;
+}
+
+.pp{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0px -8px 12px black;
+}
+
+.datainti{
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.datainti .info1{
+    margin-bottom: 2px;
+    font-family: 'open sans', sans-serif;
+    font-weight: 650;
+}
+
+.datainti .info2{
+    font-family: 'comic sans ms';
+}
+
+.datainti .info3{
+    font-family: 'open sans', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.sosmed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    margin: 35px 15px 35px 15px;
+}
+
+a .logFB{
+    height: 30px;
+    width: 30px;
+}
+
+.logFB:hover{
+    box-shadow: 0px 0px 20px black;
+    border-radius: 20px;
+}
+
+a .logX{
+    height: 30px;
+    width: 30px;
+}
+
+.logX:hover{
+    box-shadow: 0px 0px 20px black;
+    /* border-radius: 20px; */
+}
+
+a .logYT{
+    height: 35px;
+    width: 33px;
+}
+
+.logYT:hover{
+    box-shadow: 0px 0px 20px black;
+    border-radius: 20px;
+}
+
+a .logIG{
+    height: 30px;
+    width: 30px;
+}
+
+.logIG:hover{
+    box-shadow: 0px 0px 20px black;
+}
+
+a .logEML{
+    height: 34px;
+    width: 34px;
+}
+
+.logEML:hover{
+    box-shadow: 0px 0px 20px black;
+    border-radius: 20px;
+}
+
+.menu{
+    display: flex;
+    margin-top: 20px;
+    backdrop-filter: blur(10px);
+    background-position: bottom;
+    height: 35px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    align-items: center;
+    box-shadow: 0px 0px 20px 2px black;
+}
+
+.menu>li{
+    list-style-type: none;
+    margin: 0px 2px;
+}
+
+.menu>li>a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'open sans', sans-serif;
+    font-weight: 550;
+}
+
+.menu>li>a:hover{
+    color: #d56ee7;
+    transition: all .2s;
+    text-shadow: 0px 0px 40px white;
+}

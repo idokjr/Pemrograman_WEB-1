@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(./Mentahan/UCL\ Bg.jpg);
+    background-size: cover;
+}
+
+nav{
+    background-image: url(./Mentahan/UCL\ Bg.jpg);
+    background-position-y:center;
+}
+
+.wrapper{
+    display: flex;
+    backdrop-filter: blur(7px);
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.kirian{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.pp{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.own{
+    color: white;
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-weight: 550;
+    font-family: sans-serif;
+}
+
+.wrapper .menu{
+    display: flex;
+    margin-right: 10px;
+}
+
+.menu>li{
+    list-style-type: none;
+    margin: 0px 10px;
+}
+
+.menu>li>a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 550;
+    font-family: sans-serif;
+}
+
+.menu>li>a:hover{
+    color: #d56ee7;
+    transition: all .2s;
+    text-shadow: 0px 0px 20px white;
+}
+
+.isi{
+    display: flex;
+    justify-content: center;
+}
+
+.fcont{
+    height: 450px;
+    width: 330px;
+    margin-top: 75px;
+    border-radius: 35px;
+    backdrop-filter: blur(8px);
+    box-shadow: 1px -1px 30px 2px #d56ee7;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+ul>li{
+    margin: 50px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    list-style-type:none;
+}
+
+ul>li>h4{
+    color: white;
+    font-family: sans-serif;
+}
+
+ul>li>p{
+    color: #d56ee7;
+    font-family: 'comic sans ms';
+    font-weight: 600;
+    font-size: 17px;
+    font-style: italic;
+}

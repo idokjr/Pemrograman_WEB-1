@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(./Mentahan/UCL\ Bg.jpg);
+    background-size: cover;
+}
+
+
+nav{
+    position: sticky;
+    top: 0;
+}
+
+.wrapper{
+    display: flex;
+    backdrop-filter: blur(5px);
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0px 0px 30px black;
+}
+
+.kirian{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.pp{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.own{
+    color: white;
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-weight: 550;
+    font-family: sans-serif;
+}
+
+.wrapper .menu{
+    display: flex;
+    margin-right: 10px;
+}
+
+.menu>li{
+    list-style-type: none;
+    margin: 0px 10px;
+}
+
+.menu>li>a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 550;
+    font-family: sans-serif;
+}
+
+.menu>li>a:hover{
+    color: greenyellow;
+    transition: all .2s;
+    text-shadow: 0px 0px 20px white;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0px;
+    
+}
+
+.isi{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: 1200px;
+    box-shadow: 0px 0px 30px black;
+    backdrop-filter: blur(5px);
+    border-radius: 30px;
+    justify-content: center;
+}
+
+h2{
+    color: greenyellow;
+    font-weight: 800;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 20px 0px;
+    pointer-events: none ;
+}
+.line{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.img1{
+    height: 335px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.img1:hover{
+    box-shadow: 0px 0px 30px 3px greenyellow;
+    transition: all .4s;
+}
+
+.vid1{
+    height: 338px;
+    width: 600px;
+    border-radius: 20px;
+}
+
+.vid1:hover{
+    box-shadow: 0px 0px 30px 3px greenyellow;
+    transition: all .5s;
+}
+
+.img2{
+    height: 500px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.img2:hover{
+    box-shadow: 0px 0px 30px 6px greenyellow;
+    transition: all .5s;
+}
+
+.vid2b{
+    height: 500px;
+    width: 375px;
+    border-radius: 20px;
+}
+
+.vid2b:hover{
+    box-shadow: 0px 0px 30px 6px greenyellow;
+    transition: all .5s;
+}
+
+.vid2{
+    height: 500px;
+    width: 281px;
+    border-radius: 20px;
+}
+
+.vid2:hover{
+    box-shadow: 0px 0px 30px 6px greenyellow;
+    transition: all .5s;
+}
+
+.img3{
+    height: 450px;
+    width: 510px;
+    border-radius: 20px;
+}
+
+.img3:hover{
+    box-shadow: 0px 0px 30px 6px greenyellow;
+    transition: all .5s;
+}
+
+.vid3{
+    height: 450px;
+    width: 338px;
+    border-radius: 20px;
+}
+
+.vid3:hover{
+    box-shadow: 0px 0px 30px 6px greenyellow;
+    transition: all .5s;
+}
