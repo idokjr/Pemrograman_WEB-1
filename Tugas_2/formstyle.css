@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+fieldset{
+    border-radius: 20px;
+    width: 450px;
+    margin: 10px 0px;
+}
+
+legend{
+    margin: 0px 0px 15px 10px;
+    font-family: 'comic sans ms';
+}
+
+.infopenum{
+    margin-left: 15px;
+}
+
+.infopener{
+    margin-left: 15px;
+}
+
+.infopembay{
+    margin-left: 15px;
+    text-align: justify;
+}
+
+button{
+    margin: 10px 0px 40px 0px;
+    font-size: 17px;
+}
+
+button:hover{
+    background-color: black;
+    color: aliceblue;
+    transition: all .3s;
+}
