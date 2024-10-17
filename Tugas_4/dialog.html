@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dialog Tanpa JavaScript</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        #dialog {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 1px solid #ccc;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+        }
+
+        #dialog:target {
+            display: block;
+        }
+
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: none;
+            z-index: 999;
+        }
+        .x{
+            background-color: red;
+            border-radius: 50%;
+            padding: 8px;
+            text-decoration: none;
+            color: aliceblue;
+            font-weight: bold;
+            position: relative;
+            justify-content: start;
+            align-items: start;
+        }
+
+        #dialog:target + .overlay {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Contoh Dialog Tanpa JavaScript</h1>
+    <a href="#dialog">Buka Dialog</a>
+
+    <div id="dialog">
+        <a href="#" class="x">X</a>
+        <img src="./img/baggrm.jpg" alt="">
+        <h2>Judul Dialog</h2>
+        <p>Ini adalah konten dalam dialog. Anda dapat menambahkan informasi tambahan di sini.</p>
+    </div>
+    <div class="overlay" id="overlay"></div>
+
+
+</body>
+</html>
