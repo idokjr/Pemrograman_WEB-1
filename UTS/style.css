@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./img/messibg.jpg);
+    background-size: 1350px 2015px;
+}
+
+nav{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+.logo{
+    height: 80px;
+    width: 85px;
+    margin: 15px 0px 0px 50px;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    margin-right: 145px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+li{
+    margin: 5px 20px;
+    list-style-type: none;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+li>a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.content1{
+    display: flex;
+    margin: 80px 50px;
+}
+
+.isic1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.isic1 h2{
+    color: white;
+    font-size: 27px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+.isic1 h4{
+    margin-bottom: 10px;
+}
+
+.cvimg{
+    height: 445px;
+    width: 600px;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 30px;
+}
+
+.prev,.next{
+    border-radius: 100%;
+    background-color: #275994;
+    border-style: none;
+    width: 40px;
+    height: 40px;
+}
+
+.c1kananan{
+    display:flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.c1kananan h4{
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.c1kananan p{
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.inf{
+    width: 50%;
+}
+
+.adrs{
+    width: 50%;
+    margin-right: 20px;
+}
+
+.content2{
+    margin: 100px 50px;
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    display: flex;
+    height: 280px;
+    align-items: center;
+    box-shadow: 0px 0px 30px black;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 0px 50px;
+}
+
+.isi2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.isi2 h4{
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+
+.isi2 p{
+    color: white;
+    font-size: 17px;
+}
+
+.icon{
+    height: 120px;
+    width: 120px;
+}
+
+.content3{
+    height: 78vh;
+    margin: 40px 50px;
+    display: flex;
+    justify-content: space-between;
+    background:linear-gradient(360deg, #275994,#182c40 65%);
+    border-radius: 120px 200px 130px 45px;
+    padding: 20px;
+}
+
+.infon{
+    height: 90px;
+    width: 90px;
+    margin: 0px 0px -20px 10px;
+}
+
+.kirian3{
+    width: 600px;
+    height: 463px;
+    border-radius: 120px 0px 45px 45px;
+    background-color: #182c40;
+    padding: 20px;
+}
+
+.isi3 h3{
+    color: white;
+    margin: 20px 0px;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.isi3{
+    padding: 20px;
+}
+
+.isi3 p{
+    color: white;
+    font-weight: 500;
+}
+
+.kirian3 h1{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 41px;
+    margin: 30px 0px 20px 20px;
+}
+
+.kirian3 form ::placeholder{
+    color: #56697a;
+}
+
+.kananan3{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    width: 35%;
+    height: inherit;
+    border-radius: 0px 200px 130px 100px;
+    justify-content: center;
+    background-color: #182c40;
+}
+
+.name{
+    width: 330px;
+    height: 20px;
+    margin: 10px 13px 10px 10px;
+    padding-left: 7px;
+    font-family :sans-serif;
+    font-size: 17px;
+    font-weight:600;
+    color:#182c40
+}
+
+.emeil{
+    height: 20px;
+    width: 180px;
+    margin: 10px;
+    padding-left: 7px;
+    font-family :sans-serif;
+    font-size: 17px;
+    font-weight:600;
+    color:#182c40
+}
+
+.prihal{
+    height: 20px;
+    width: 550px;
+    margin: 10px;
+    padding-left: 7px;
+    font-family :sans-serif;
+    font-size: 17px;
+    font-weight:600;
+    color:#182c40
+}
+
+.isims{
+    height: 20px;
+    padding-bottom: 210px;
+    width: 550px;
+    margin: 10px;
+    padding-left: 7px;
+    font-family :sans-serif;
+    font-size: 17px;
+    font-weight:600;
+    color:#182c40;
+}
+
+footer{
+    margin: 15px 50px;
+    height: 65vh;
+    border-radius: 30px 30px 0px 0px;
+    /* background-color: #202e42; */
+    backdrop-filter: blur(100px);
+    padding: 20px;
+}
+
+.kontener{
+    display: flex;
+    justify-content: space-between;
+    height: 60vh;
+}
+
+.kirian4{
+    width: 68%;
+}
+
+.kirian4 form{
+    margin: 40px 0px;
+}
+
+.kirian4 form ::placeholder{
+    color: white;
+}
+
+
+.subs{
+    height: 30px;
+    width: 450px ;
+    margin-right: 10px;
+    background-color: #a73b55;
+    font-family: sans-serif;
+    padding-left: 15px;
+    color: white;
+    font-size: 15px;
+    border-radius: 20px 0px 0px 20px;
+    border-style: solid;
+    border-color: white;
+}
+
+button{
+    height: 33px;
+    width: 190px;
+    margin-left: 15px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+    border-radius: 0px 20px 20px 0px;
+    background-color: #275994;
+    border-width: 3px;
+}
+
+button a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.kotakk{
+    display: flex;
+}
+
+box{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #275994;
+    height: 190px;
+    width: 145px;
+    margin: 0px 15px;
+    justify-content: center;
+}
+
+box>h6{
+    font-family: sans-serif;
+    color: white;
+    font-size: 11.5px;
+    transform: scale(1.3);
+    margin: 12px 0px;
+    margin-left: 28px;
+}
+
+.kananan4{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.abtus h2{
+    color: white;
+    margin: 0px 0px 30px 0px;
+    font-family: sans-serif;
+    font-size: 27px;
+}
+
+.abtus p{
+    color: white;
+    font-size: 16px;
+}
+
+.medsos{
+    margin: 25px 0px 0px 0px;
+}
+
+.logsos{
+    margin: 0px 17px;
+    height: 27px;
+    width: 27px;
+}
+
+.cpr{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.bungkuskanan{
+    margin-right: 60px;
+}
+
+.bungkuskanan a{
+    text-decoration: none;
+    color: inherit;
+    font-family: sans-serif;
+}
